@@ -8,53 +8,89 @@
     <title>Odin Teknoloji</title>
   </head>
   <body>
-    <nav id="nav-bar" class="nav">
-      <ul>
-        <li><a href="blog.odinteknoloji.com" target="_blank">Blog</a></li>
-        <li><a href="#welcome">Welcome</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
 
-    </nav>
 
     <header id="header">
-      <img src="img/odint_logo.jpg" alt="Odin Teknoloji Logo" id="header_logo"></img>
+
+    <!-- <img src="img/odint_logo.jpg" alt="Odin Teknoloji Logo" id="header_logo"></img> -->
+
+      <nav id="nav-bar" class="nav">
+        <ul>
+          <li><a href="blog.odinteknoloji.com" target="_blank">Blog</a></li>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+  ß
+      </nav>
     </header>
     <section class="main">
       <div id="welcome">
         <h1 class="title">Merhaba</h1>
+        <div id="welcome-block">
+        <img src="img/odint_logo.jpg" alt="Odin Teknoloji Logo" id="welcome-img" loading="lazy"></img>
         <div class="text">
-          <p>Odin Teknoloji 2017 yılında seramik sanatçılarına özel yüksek teknolojili ürünler tasarmak için kurulmuştur.</p>
+          <p>Odin Teknoloji 2017 yılında seramik sanatçılarına özel yüksek teknolojili ürünler tasarmak için kurulmuştur. 
+            Şirket kurulduğu yıl seramik fırınları için akıllı sıcaklık kontrolcüsü tasarımını tamamlamış fakat satışa sunmamıştır. 
+            Ekonomik belirsizlikler nedeniyle satış sonrası hizmetler ve garanti yönüyle eksik olarak piyasa sürmek ve müşteri 
+            memnuniyetinden feragat etmek yerine bu yolu tercih eden Odin Teknoloji, bu cihaz yerine sadece hobi kullanıcılarının değil,
+            sanatçıların ve eğitmenlerin de severek kullanacağı minyatür çömlekçi tornası tasarımını tamamlayıp piyasaya sürmüştür. 
+            Minyatür çömlekçi tornası "Odi" ile gösterdiği başarıdan sonra şirket de kendini sektöre ispat etmiş duruma gelmiştir.
+            Bu cihazların ar-ge süreçlerinin tamamlanmasından sonra orta boy çömlekçi tornası ve 3d seramik yazıcısı tasarımlarına 
+            eş zamanlı olarak başlamıştır. Bu cihazların çalışmaları hala devam etmektedir. Ar-ge çalışmalarına ek olarak yüksek sıcaklık
+            fırınlarının arızalarının tespiti de firma bünyesinde yapılmaktadır.
+            </p>
         </div>
       </div>
-              <h1 class="title">Projeler</h1>
-      <div id="projects" class="projects">
-
+      </div>
+      
+      <div id="projects">
+        <h1 class="title">Projeler</h1>
+        <div id="project-block">
         <div class="project">
           <h3 class="project-title">BUSK - Bütünleşik Sıcaklık Kontrolcüsü</h3>
-          <p>Sıcaklık Kontrolcüsü dummy text</p>
-          <img class="project-img" src="img/busk.png" alt="Bütünleşik sıcaklık kontrolcüsü">
+          <p class="project-text">Seramik pişirim fırınlarındaki sıcaklık kontrolcüleri işin kontrol tarafını yeterince iyi yaparken
+            ne kullanıcı dostu bir arayüze ne de IoT teknolojilerine sahiptir. BUSK bu iki eksikliği gidermek için ortaya çıkmış bir 
+            projedir. Kablosuz olarak web tabanlı bir arayüze bilgileri gönderebilme kabiliyeti sayesinde, acil durumlarda uzaktan 
+            durdurulabilen ve neredeyse gerçek zamanlı olarak fırın parametrelerinin takip edilebildiği bir akıllı cihazdır. Arayüzü
+            özellikle sanatçılar ve hobi kullanıcıları için olabildiğince sade ve anlaşılır olarak tasarlanmıştır. Ekran olarak elektronik
+            mürekkep teknolojisini kullanan ilk sıcaklık kontrolcüsüdür. Busk proje olarak tamamlanmış fakat ekonomik belirsizlikler nedeniyle
+            ticarileşememiş bir ürün olarak rafta beklemektedir.
+          </p>
+          <img class="project-img" src="img/busk.png" alt="Bütünleşik sıcaklık kontrolcüsü" loading="lazy">
         </div>
 
         <div class="project">
           <h3 class="project-title">ODİ - Mini Çömlekçi Tornası</h3>
-          <p>Odi dummy text</p>
-          <img class="project-img" src="img/odi.png" alt="Mini Çömlekçi Tornası">
+          <p class="project-text">Türkiye'de ve dünyada büyük ilgi gören Odi, alanında kendi standartlarını belireyen bir ürün olarak hala satıştadır. 
+            Bir haftasonu projesi olarak başlayıp ticarileşen ve Odin Teknoloji'yi ayakta tutan, büyük çoğunluğu dünyanın dört bir yanına ihraç edilen,
+            bu bağlamda rüştünü ispatlamış bir üründür. Halihazırda 
+            <a href="https://www.etsy.com/listing/779671329/odi-mini-pottery-wheel" class="project-link" target="_blank">Etsy</a>,
+             <a href="https://www.amazon.com.tr/Odi-Mini-Torna/dp/B07TNC2WNX" class="project-link" target="_blank">Amazon</a>  ve 
+             <a href="https://iyzi.link/AGMjhA" class="project-link" target="_blank">iyzilink</a>  
+             aracılığıyla satın alınabilir.</p>
+          <img class="project-img" src="img/odi.png" alt="Mini Çömlekçi Tornası" loading="lazy">
         </div>
 
         <div class="project">
           <h3 class="project-title">Clayer</h3>
-          <p>3d seramik baskı makinesi</p>
-          <img class="project-img" src="img/black.png" alt="3d seramik yazıcısı">
+          <p class="project-text">3d yazıcı teknolojisinin açık kaynaklı donanım ve yazılım platformları sayesinde oldukça ucuzlamasıyla birlikte
+            yenilikçi bazı fikirler ortaya çıktı. Bazı cesur sanatçılar bu fikirleri açık kaynaklı platformlar sayesinde hayata geçirmeyi başardılar.
+            Clayer, bu yarı otomatize sistemlerin bir gelişmiş versiyonunu yapma fikriyle ortaya çıkmış bir proje ve geliştirilme süreci hala devam
+            ediyor.
+          </p>
+          <img class="project-img" src="img/black.png" alt="3d seramik yazıcısı" loading="lazy">
         </div>
 
         <div class="project">
           <h3 class="project-title">BODİ - Çömlekçi Tornası</h3>
-          <p>Bodi dummy text</p>
-          <img class="project-img" src="img/black.png" alt="Çömlekçi tornası">
+          <p class="project-text">Odi'nin başarı orta boy masaüstü bir çömlekçi tornası talebini de beraberinde getirdi. Tasarım süreci devam 
+            eden bu proje, Odi'nin görsel tasarım stilini devam ettirecek, yine hız ve yön ayarına sahip orta büyüklükte ve orta güç seviyesinde
+            bir çömlekçi tornası olacak. 
+          </p>
+          <img class="project-img" src="img/black.png" alt="Çömlekçi tornası" loading="lazy">
         </div>
-
+      </div>
       </div>
       <div id="contact">
         <h1 class="title">Sorunuz mu var?</h1>
@@ -62,14 +98,12 @@
       </div>
     </section>
 
-
     <footer class="footer">
       <p id="contact-mail">merhaba[at]odinteknoloji.com</p>
       <address id="adress">
         <p>Bahcelievler mah. 7043sk. No:1/M PK:48400 Bodrum/MUĞLA</p>
       </address>
-
-
+      <p>Tüm Hakları Saklıdır.</p>
     </footer>
 
   </body>
